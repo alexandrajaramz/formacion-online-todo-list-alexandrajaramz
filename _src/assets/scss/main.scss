@@ -1,0 +1,40 @@
+@import 'core/settings';
+@import 'core/links';
+
+body {
+	margin: 0;
+  height: 100vh;
+  background-color: silver;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  min-width: 300px;
+  max-width: 320px;
+  min-height: 70vh;
+}
+
+.reset-date__wrapper {
+  border-bottom: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__list {
+  height: 70%;
+}
+
+.card__add {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
